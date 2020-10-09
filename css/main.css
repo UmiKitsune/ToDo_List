@@ -187,13 +187,15 @@ ul {
   .song {
     font-size: 16px;
     justify-content: space-around;
+    position: absolute;
+    bottom: 15px;
   }
 
   h1 {
     font-size: 45px;
     text-align: center;
     background-color: rgba(240, 240, 240, 0.75);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   h4 {
@@ -202,6 +204,8 @@ ul {
 
   .bg {
     margin-top: 20px;
+    background-size: 30%;
+    background-position: right bottom;
   }
 
   .list, .card {
