@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>To Do List</title>
+</head>
+<body>
+
+  <div class="song">
+    <span class="space">-To do </span>
+    <span class="space">-To do </span>
+    <span class="space">-To do, to do, to do, to do,</span>
+    <span class="space">to doooo, dododododo</span>
+  </div>
+
+  <div class="bg">
+    <div class="container">
+      <h1>To-Do List</h1>
+      <h4>Список задач</h4>
+  
+      <!-- Список задач -->
+      <div class="list">
+        <ul>
+          <li id="empty-list-item" class="empty-list-item">Список дел пуст</li>
+  
+          <li class="list-item">
+            <span class="task-title">Купить молоко</span>
+            <div>
+              <button type="button" data-action="ready" class="btn-ready">Готово</button>
+              <button type="button" data-action="delete-task" class="btn-delete">Удалить</button>
+            </div>
+          </li>
+  
+          <li class="list-item">
+            <span class="task-title task-title--done">Купить хлеб</span>
+            <div>
+              <button type="button" data-action="ready" class="btn-ready">Готово</button>
+              <button type="button" data-action="delete-task" class="btn-delete">Удалить</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Форма добавления -->
+      <div class="card">
+        <div class="card-header">Добавить новую задачу</div>
+        <div class="card-body">
+          <form id="newTaskForm">
+            <div class="form-group">
+              <input type="text" class="form-control" id="addNewTask" placeholder="Текст задачи" autofocus required />
+            </div>
+            <button type="submit" class="add-btn">Добавить</button>
+          </form>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
