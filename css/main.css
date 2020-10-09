@@ -172,6 +172,14 @@ ul {
 }
 
 @media(max-width: 540px) {
+  .list-item {
+    padding: 10px 10px;
+  }
+
+  .btn-group {
+    min-width: 145px;
+  }
+
   .task-title {
     font-size: 14px;
   }

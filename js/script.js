@@ -18,7 +18,7 @@ function addNewTask(event) {
   const taskHTML =
     `<li class="list-item">
     <span class="task-title">${taskText}</span>
-    <div>
+    <div class="btn-group">
       <button type="button" data-action="ready" class="btn-ready">Готово</button>
       <button type="button" data-action="delete-task" class="btn-delete">Удалить</button>
     </div>
