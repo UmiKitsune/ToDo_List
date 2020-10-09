@@ -172,7 +172,7 @@ ul {
 }
 
 @media(max-width: 540px) {
-  .list-item {
+  .task-title {
     font-size: 14px;
   }
 
